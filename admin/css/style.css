@@ -1,0 +1,68 @@
+.experience-carousel {
+    padding: 30px 20px;
+    background-color: #fafafa;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.carousel-track {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    gap: 20px;
+    width: 100%;
+}
+
+.carousel-card {
+    width: 350px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto; }
+
+.carousel-card h4{
+  text-transform: none;
+}
+.carousel-card h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  font-weight: normal;
+  text-transform: none;
+  color: #333;
+}
+
+.carousel-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.carousel-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    user-select: none;
+    z-index: 2;
+}
+
+.prev {
+    margin-right: 10px;
+}
+
+.next {
+    margin-left: 10px;
+}
